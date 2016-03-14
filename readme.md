@@ -4,7 +4,7 @@
 About
 -----
 
-`expmv` contains two functions for computing EXPM(t*A)*b without
+`expmv` contains two MATLAB functions for computing expm(t*A)*b without
 explicitly forming expm(t*A), where A is an n-by-n matrix and b is an
 n-by-1 vector. This is the problem of computing the action of the matrix
 exponential on a vector.
@@ -22,5 +22,5 @@ Details on the underlying algorithms can be found in
 
 A. H. Al-Mohy and N. J. Higham, "[Computing the action of the matrix
 exponential, with an application to exponential
-integrators](http://dx.doi.org/10.1137/10.1137/100788860)" SIAM
+integrators](http://dx.doi.org/10.1137/100788860)" SIAM
 J. Sci. Comput., 33(2):488--511, 2011.
