@@ -14,9 +14,9 @@ function [f,s,m,mv,mvd,unA] = ...
 %   M = SELECT_TAYLOR_DEGREE(A,b,m_max,p_max,prec,shift,bal,true).
 %   This also allows choosing different m_max and p_max.
 
-%   Reference: A. H. Al-Mohy and N. J. Higham, Computing the action of
-%   the matrix exponential, with an application to exponential
-%   integrators. MIMS EPrint 2010.30, The University of Manchester, 2010.
+%   Reference: A. H. Al-Mohy and N. J. Higham. Computing the action of the
+%   matrix exponential, with an application to exponential integrators.
+%   SIAM J. Sci. Comput., 33(2):488--511, 2011.  Algorithm 3.2.
 
 %   Awad H. Al-Mohy and Nicholas J. Higham, November 9, 2010.
 

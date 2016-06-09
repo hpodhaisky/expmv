@@ -8,9 +8,10 @@ function [X,t,mv] = expmv_tspan(A,b,t0,tmax,q,prec,M,shift,force_simple,bal,prnt
 %   and defaults to CLASS(A).
 %   A total of MV matrix-vector products with A or A^* are used.
 
-%   Reference: A. H. Al-Mohy and N. J. Higham, Computing the action of
-%   the matrix exponential, with an application to exponential
-%   integrators. MIMS EPrint 2010.30, The University of Manchester, 2010.
+   
+%   Reference: A. H. Al-Mohy and N. J. Higham. Computing the action of the
+%   matrix exponential, with an application to exponential integrators.
+%   SIAM J. Sci. Comput., 33(2):488--511, 2011.  Algorithm 5.2.
 
 %   Awad H. Al-Mohy and Nicholas J. Higham, October 26, 2010.
 
