@@ -1,7 +1,7 @@
 `expmv` - Matrix exponential times a vector.
 ==========
 
-... we need to understand ...
+... we need to understand ... now we do understand ...
 
 About
 -----
